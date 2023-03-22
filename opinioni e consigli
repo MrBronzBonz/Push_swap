@@ -1,0 +1,17 @@
+L'algoritmo che sembra adattarsi meglio alle limitazioni imposte consiste nell'utilizzo di una variante del merge sort chiamata merge sort iterativo.
+
+Il merge sort iterativo prevede l'utilizzo di un approccio bottom-up, 
+ossia l'ordinamento inizia dalle coppie di elementi e successivamente si uniscono i risultati ottenuti fino a raggiungere l'ordinamento completo.
+
+In questo caso, si può dividere l'array di partenza in due parti di dimensioni uguali e utilizzare gli stack A e B per contenere le parti da ordinare. 
+Successivamente, si procede con la fusione dei due stack in modo iterativo fino ad ottenere l'array ordinato.
+
+Per la fusione, si può utilizzare la tecnica dei due puntatori, 
+che prevede l'utilizzo di due puntatori per scorrere gli stack A e B e un terzo puntatore per indicare la posizione di inserimento nell'array ordinato. 
+In ogni passo, si confrontano gli elementi puntati dai due puntatori e si inserisce il valore minore nell'array ordinato.
+
+In questo modo, si evitano scambi costosi e shifting di tutti gli elementi dell'array. 
+Il costo computazionale dell'algoritmo è di O(nlogn) come nel caso del merge sort classico.
+
+In sintesi, l'algoritmo ideale per ordinare numeri in ordine crescente, utilizzando due stack e limitando il numero di mosse possibili, 
+consiste nell'utilizzo di una variante del merge sort chiamata merge sort iterativo.
