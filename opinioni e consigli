@@ -1,3 +1,6 @@
+WARNING!/DISCLAIMER: Tutto quello che leggete di seguito é tratto da una risposta fornita da ChatGPT, la riporto solo a scopo illustrativo 
+in caso vogliate indagare piú a fondo sull'argomento.
+
 L'algoritmo che sembra adattarsi meglio alle limitazioni imposte consiste nell'utilizzo di una variante del merge sort chiamata merge sort iterativo.
 
 Il merge sort iterativo prevede l'utilizzo di un approccio bottom-up, 
